@@ -1,9 +1,9 @@
 {
-    "name": "frag-keybindings",
-    "displayName": "frag 键盘扩展",
-    "description": "常用键盘扩展",
-    "version": "1.0.0",
-    "publisher": "ms-vscode",
+    "name": "frag-vscode-keybindings",
+    "displayName": "通用快捷键",
+    "description": "frag 推荐常用键盘扩展",
+    "version": "1.0.3",
+    "publisher": "xuld",
     "engines": {
         "vscode": "^1.6.0"
     },
@@ -12,9 +12,6 @@
     ],
     "keywords": [
         "keymap"
-    ],
-    "activationEvents": [
-        "*"
     ],
     "preview": true,
     "icon": "sublime_keyboard.svg",
