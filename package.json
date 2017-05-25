@@ -1,0 +1,277 @@
+{
+    "name": "frag-keybindings",
+    "displayName": "frag 键盘扩展",
+    "description": "常用键盘扩展",
+    "version": "1.0.0",
+    "publisher": "ms-vscode",
+    "engines": {
+        "vscode": "^1.6.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "keywords": [
+        "keymap"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "preview": true,
+    "icon": "sublime_keyboard.svg",
+    "repository": "https://github.com/fragjs/frag-vscode-keybindings",
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+0",
+                "mac": "cmd+0",
+                "command": "editor.unfoldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+1",
+                "mac": "cmd+1",
+                "command": "editor.foldLevel1",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+2",
+                "mac": "cmd+2",
+                "command": "editor.foldLevel2",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+3",
+                "mac": "cmd+3",
+                "command": "editor.foldLevel3",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+4",
+                "mac": "cmd+4",
+                "command": "editor.foldLevel4",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+5",
+                "mac": "cmd+5",
+                "command": "editor.foldLevel5",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+9",
+                "mac": "cmd+9",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+[",
+                "mac": "cmd+[",
+                "command": "editor.fold",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+]",
+                "mac": "cmd+]",
+                "command": "editor.unfold",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+[",
+                "command": "editor.unfold",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+]",
+                "command": "editor.fold",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+left",
+                "mac": "cmd+left",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "ctrl+right",
+                "mac": "cmd+right",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "ctrl+up",
+                "mac": "cmd+up",
+                "command": "editor.action.moveLinesUpAction"
+            },
+            {
+                "key": "ctrl+down",
+                "mac": "cmd+down",
+                "command": "editor.action.moveLinesDownAction"
+            },
+            {
+                "key": "shift+ctrl+left",
+                "command": "cursorWordLeftSelect",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+right",
+                "command": "cursorWordRightSelect",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+up",
+                "command": "editor.action.insertCursorAbove"
+            },
+            {
+                "key": "shift+ctrl+down",
+                "command": "editor.action.insertCursorBelow"
+            },
+            {
+                "key": "ctrl+e",
+                "mac": "cmd+e",
+                "command": "editor.action.addSelectionToNextFindMatch",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+e",
+                "command": "editor.action.addSelectionToPreviousFindMatch",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+j",
+                "mac": "cmd+j",
+                "command": "editor.action.joinLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+u",
+                "mac": "cmd+u",
+                "command": "editor.action.transformToUppercase",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "shift+ctrl+u",
+                "command": "editor.action.transformToLowercase",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+d",
+                "mac": "cmd+d",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+d",
+                "command": "editor.action.findReferences",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+r",
+                "mac": "cmd+r",
+                "command": "editor.action.rename",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+q",
+                "mac": "cmd+q",
+                "command": "editor.action.format",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "ctrl+q",
+                "mac": "cmd+q",
+                "command": "editor.action.format"
+            },
+            {
+                "key": "ctrl+.",
+                "mac": "cmd+.",
+                "command": "editor.action.showSnippets",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+;",
+                "mac": "cmd+;",
+                "command": "editor.action.showSnippets",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+ctrl+\\",
+                "command": "workbench.action.closeActiveEditor"
+            },
+            {
+                "key": "ctrl+m",
+                "mac": "cmd+m",
+                "command": "workbench.action.toggleMenuBar"
+            },
+            {
+                "key": "shift+ctrl+m",
+                "command": "workbench.action.toggleStatusbarVisibility"
+            },
+            {
+                "key": "ctrl+w",
+                "mac": "cmd+w",
+                "command": "workbench.action.quickOpen"
+            },
+            {
+                "key": "shift+ctrl+w",
+                "command": "workbench.action.quickOpenView"
+            },
+            {
+                "key": "ctrl+p",
+                "mac": "cmd+p",
+                "command": "workbench.action.togglePanel"
+            },
+            {
+                "key": "shift+ctrl+p",
+                "command": "workbench.action.quickOpenView"
+            },
+            {
+                "key": "ctrl+w",
+                "mac": "cmd+w",
+                "command": "workbench.action.quickOpenNavigateNext",
+                "when": "inQuickOpen"
+            },
+            {
+                "key": "shift+ctrl+w",
+                "command": "workbench.action.quickOpenNavigatePrevious",
+                "when": "inQuickOpen"
+            },
+            {
+                "key": "ctrl+t",
+                "mac": "cmd+t",
+                "command": "workbench.action.tasks.runTask"
+            },
+            {
+                "key": "shift+ctrl+t",
+                "command": "workbench.action.tasks.configureTaskRunner"
+            },
+            {
+                "key": "ctrl+b",
+                "mac": "cmd+b",
+                "command": "workbench.action.tasks.build"
+            },
+            {
+                "key": "shift+ctrl+b",
+                "command": "workbench.action.tasks.terminate"
+            },
+            {
+                "key": "ctrl+l",
+                "mac": "cmd+l",
+                "command": "workbench.action.tasks.test"
+            },
+            {
+                "key": "ctrl+k ctrl+c",
+                "mac": "cmd+k ctrl+c",
+                "command": "git.commitAll"
+            },
+            {
+                "key": "ctrl+k ctrl+p",
+                "mac": "cmd+k ctrl+p",
+                "command": "git.sync"
+            },
+            {
+                "key": "ctrl+i",
+                "mac": "cmd+i",
+                "command": "extension.caniuse",
+                "when": "editorTextFocus"
+            }
+        ]
+    }
+}
