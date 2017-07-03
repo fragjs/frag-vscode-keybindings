@@ -211,15 +211,6 @@
                 "command": "workbench.action.quickOpenView"
             },
             {
-                "key": "ctrl+p",
-                "mac": "cmd+p",
-                "command": "workbench.action.togglePanel"
-            },
-            {
-                "key": "shift+ctrl+p",
-                "command": "workbench.action.quickOpenView"
-            },
-            {
                 "key": "ctrl+w",
                 "mac": "cmd+w",
                 "command": "workbench.action.quickOpenNavigateNext",

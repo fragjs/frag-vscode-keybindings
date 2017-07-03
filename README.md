@@ -31,12 +31,10 @@
 |`ctrl+r`       | rename     | 重命名                            |
 |`ctrl+q`       | smart      | 格式化代码                        |
 |`ctrl+;`       | 新语句     | 显示代码提示                       |
-|`ctrl+\|`      | 分割线      | 拆分屏幕                         |
-|`shift+ctrl+\|`| 分割线      | 取消拆分屏幕(关闭当前编辑器)      |
+|`ctrl+\`       | 分割线      | 拆分屏幕                         |
+|`shift+ctrl+\` | 分割线      | 取消拆分屏幕(关闭当前编辑器)      |
 |`ctrl+m`       | menu       | 切换菜单栏                       |
 |`shift+ctrl+m` | menu       | 切换状态栏                       |
-|`ctrl+p`       | panel      | 切换面板                         |
-|`shift+ctrl+p` | panel      | 切换视图                         |
 |`ctrl+w`       | window     | 快速打开                         |
 |`shift+ctrl+w` | window     | 快速打开视图                      |
 |`ctrl+t`       | task       | 执行任务                          |
