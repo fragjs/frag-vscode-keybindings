@@ -1,8 +1,8 @@
 {
     "name": "frag-vscode-keybindings",
-    "displayName": "通用快捷键",
-    "description": "frag 推荐常用键盘扩展",
-    "version": "1.0.3",
+    "displayName": "frag 推荐快捷键",
+    "description": "提供常用快捷键扩展",
+    "version": "1.0.4",
     "publisher": "xuld",
     "engines": {
         "vscode": "^1.6.0"
