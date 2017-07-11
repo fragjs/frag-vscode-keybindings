@@ -253,12 +253,6 @@
                 "key": "ctrl+k ctrl+p",
                 "mac": "cmd+k ctrl+p",
                 "command": "git.sync"
-            },
-            {
-                "key": "ctrl+i",
-                "mac": "cmd+i",
-                "command": "extension.caniuse",
-                "when": "editorTextFocus"
             }
         ]
     }

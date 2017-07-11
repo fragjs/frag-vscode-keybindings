@@ -55,7 +55,6 @@
 |`ctrl+h`        | f 旁边    | 替换                             |  
 |`shift+ctrl+h`  | f 旁边    | 在文件替换                        |  
 |`ctrl+g`        | go        | 转到行                           |  
-|`ctrl+i`        | insert    | 选中当前行                       |  
 |`ctrl+x`        | 剪切      | 删除行                           |  
 |`ctrl+c v`      | 复制 粘贴 | 复制行                            |  
 |`ctrl+tab`      | 标签页    | 切换标签页                        |  
