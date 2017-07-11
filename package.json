@@ -14,7 +14,7 @@
         "keymap"
     ],
     "preview": true,
-    "icon": "sublime_keyboard.svg",
+    "icon": "sublime_keyboard.png",
     "repository": "https://github.com/fragjs/frag-vscode-keybindings",
     "contributes": {
         "keybindings": [
