@@ -1,69 +1,102 @@
-# 通用快捷键
+# frag 推荐快捷键
 
-这个组件定义了以下快捷键：
+这个插件定义了以下快捷键（Mac 用 Command 键代替 Ctrl），如果有部分快捷键不满意，可以通过自定义键盘覆盖：
 
-| 快捷键         | 记忆关键字 |  功能                            |
-|---------------|------------|---------------------------------|
-|`ctrl+0`       | 0-最小折叠  | 取消全部折叠                     |
-|`ctrl+1`       | 1-5 折叠   | 折叠第 1 层                      |
-|`ctrl+2`       | 1-5 折叠   | 折叠第 2 层                      |
-|`ctrl+3`       | 1-5 折叠   | 折叠第 3 层                      |
-|`ctrl+4`       | 1-5 折叠   | 折叠第 4 层                      |
-|`ctrl+5`       | 1-5 折叠   | 折叠第 5 层                      |
-|`ctrl+9`       | 9-最大折叠  | 全部折叠（除光标位置外）          |
-|`ctrl+{`       | 区域开始    | 折叠当前层                       |
-|`ctrl+}`       | 区域结束    | 展开当前层                       |
-|`ctrl+←`       | 左         | 后退（回到上个光标位置）           |
-|`ctrl+→`       | 右         | 前进                             |
-|`ctrl+↑`       | 上         | 上移当前行                       |
-|`ctrl+↓`       | 下         | 下移当前行                       |
-|`shift+ctrl+←` | 左         | 选中左侧单词                      |
-|`shift+ctrl+→` | 右         | 选中右侧单词                      |
-|`shift+ctrl+↑` | 上         | 向上插入光标                      |
-|`shift+ctrl+↓` | 下         | 向下插入光标                      |
-|`ctrl+e`       | repeat     | 选中相同项                       |
-|`shift+ctrl+e` | repeat     | 向上选中相同项                    |
-|`ctrl+j`       | join       | 合并行(删除换行)                  |
-|`ctrl+u`       | upper case | 转为大写                          |
-|`shift+ctrl+u` | upper case | 转为小写                          |
-|`ctrl+d`       | definition | 转到定义                          |
-|`shift+ctrl+d` | definition | 查找所有引用                      |
-|`ctrl+r`       | rename     | 重命名                            |
-|`ctrl+q`       | smart      | 格式化代码                        |
-|`ctrl+;`       | 新语句     | 显示代码提示                       |
-|`ctrl+\`       | 分割线      | 拆分屏幕                         |
-|`shift+ctrl+\` | 分割线      | 取消拆分屏幕(关闭当前编辑器)      |
-|`ctrl+m`       | menu       | 切换菜单栏                       |
-|`shift+ctrl+m` | menu       | 切换状态栏                       |
-|`ctrl+w`       | window     | 快速打开                         |
-|`shift+ctrl+w` | window     | 快速打开视图                      |
-|`ctrl+t`       | task       | 执行任务                          |
-|`shift+ctrl+t` | task       | 配置任务                          |
-|`ctrl+b`       | build      | 执行 build 任务                   |
-|`shift+ctrl+b` | build      | 终止执行 build 任务               |
-|`ctrl+l`       | launch     | 启动（执行 test 任务）            |
-|`ctrl+k c`     | commit     | git commit                       |
-|`ctrl+k p`     | pull push  | git pull && git push             |
+## 快速跳转
 
-以下是 vscode 内置的部分常用命令：
+| 快捷键             | 记忆关键字 | 功能                        |
+| ------------------ | ---------- | --------------------------- |
+| `Ctrl + ←`         | 左         | 后退（回到上个光标位置）    |
+| `Ctrl + →`         | 右         | 前进（撤销后退）            |
+| `Ctrl + O`         | Open       | 打开文件（再按一下可切换）  |
+| `Shift + Ctrl + O` | Open       | 打开命令                    |
+| `Ctrl + W`         | Window     | 关闭当前标签页(VSCode 内置) |
+| `Shift + Ctrl + W` | Window     | 重新打开标签页              |
+| `Ctrl + Tab`       | Tab Page   | 切换标签页(VSCode 内置)     |
+| `Ctrl + E`         | Reveal     | 转到定义                    |
+| `Shift + Ctrl + E` | Reveal     | 转到实现                    |
+| `Ctrl + U`         | Usage      | 转到引用                    |
+| `Ctrl + G`         | Goto       | 转到行(VSCode 内置)         |
+| `Shift + Ctrl + G` | Goto       | 转到符号                    |
+| `Ctrl + D`         | Duplicate  | 选中下一个单词(VSCode 内置) |
+| `Shift + Ctrl + D` | Duplicate  | 选中上一个单词(VSCode 内置) |
+| `Shift + Ctrl + ←` | 左         | 选中左侧单词                |
+| `Shift + Ctrl + →` | 右         | 选中右侧单词                |
 
-| 快捷键         | 记忆关键字 |  功能                            |
-|---------------|------------|---------------------------------|
-|`ctrl++`        | 加        | 放大屏幕                         |  
-|`ctrl+-`        | 减        | 减小屏幕                         |   
-|`shift+ctrl+f`  | find      | 在文件查找                       | 
-|`ctrl+h`        | f 旁边    | 替换                             |  
-|`shift+ctrl+h`  | f 旁边    | 在文件替换                        |  
-|`ctrl+g`        | go        | 转到行                           |  
-|`ctrl+x`        | 剪切      | 删除行                           |  
-|`ctrl+c v`      | 复制 粘贴 | 复制行                            |  
-|`ctrl+tab`      | 标签页    | 切换标签页                        |  
-|`ctrl+/`       | //        | 添加注释                          |  
-|`ctrl+\``      | 引用       | 打开终端                         |  
+## 快速编辑
 
-以下是目前未设置的空快捷键：
-- `ctrl+'`
-- `ctrl+,`
-- `ctrl+6`
-- `ctrl+7`
-- `ctrl+8`
+| 快捷键             | 记忆关键字 | 功能                    |
+| ------------------ | ---------- | ----------------------- |
+| `Ctrl + ↑`         | 上         | 上移当前行              |
+| `Ctrl + ↓`         | 下         | 下移当前行              |
+| `Shift + Ctrl + ↑` | 上         | 向上复制行              |
+| `Shift + Ctrl + ↓` | 下         | 向下复制行              |
+| `Ctrl + R`         | Rename     | 重命名                  |
+| `Shift + Ctrl + R` | Rename     | 更改所有匹配项          |
+| `Ctrl + Q`         | Smart      | 格式化代码              |
+| `Shift + Ctrl + Q` | Smart      | 格式化选中代码          |
+| `Ctrl + Delete`    | Delete     | 删除行                  |
+| `Ctrl + I`         | Import     | 组织导入                |
+| `Shift + Ctrl + I` | Refactor   | 重构                    |
+| `Ctrl + K U`       | Upper      | 转为大写                |
+| `Ctrl + K L`       | Lower      | 转为小写                |
+| `Ctrl + K T`       | Title      | 转为首字母大写          |
+| `Ctrl + K I`       |            | 转为小驼峰风格          |
+| `Ctrl + K S`       | Snake      | 转为蛇形风格            |
+| `Ctrl + K B`       | Kebab      | 转为连接线风格          |
+| `Ctrl + [`         | 左         | 减小缩进(VSCode 内置)   |
+| `Ctrl + ]`         | 右         | 添加缩进(VSCode 内置)   |
+| `Ctrl + ;`         | 结束       | 显示代码提示            |
+| `Ctrl + /`         | //         | 添加注释(VSCode 内置)   |
+| `Ctrl + H`         | Huan       | 替换(VSCode 内置)       |
+| `Shift + Ctrl + H` | Huan       | 在文件替换(VSCode 内置) |
+| `Shift + Ctrl + S` | Save       | 保存全部                |
+
+## 快速折叠
+
+| 快捷键     | 记忆关键字 | 功能                     |
+| ---------- | ---------- | ------------------------ |
+| `Ctrl + 1` | 0-9 折叠   | 折叠第 1 层              |
+| `Ctrl + 2` | 0-9 折叠   | 折叠第 2 层              |
+| `Ctrl + 3` | 0-9 折叠   | 折叠第 3 层              |
+| `Ctrl + 4` | 0-9 折叠   | 折叠第 4 层              |
+| `Ctrl + 7` | 0-9 折叠   | 切换折叠                 |
+| `Ctrl + 8` | 0-9 折叠   | 创建折叠区域             |
+| `Ctrl + 9` | 9-最大折叠 | 全部折叠（除光标位置外） |
+| `Ctrl + 0` | 0-最小折叠 | 全部展开                 |
+
+## 界面操作
+
+| 快捷键             | 记忆关键字 | 功能                      |
+| ------------------ | ---------- | ------------------------- |
+| `Ctrl + +`         | 加         | 放大屏幕(VSCode 内置)     |
+| `Ctrl + -`         | 减         | 减小屏幕(VSCode 内置)     |
+| `Ctrl + \`         | 分割线     | 拆分屏幕(VSCode 内置)     |
+| `Shift + Ctrl + \` | 分割线     | 取消拆分屏幕(VSCode 内置) |
+| `Shift + Ctrl + F` | Find       | 在文件查找(VSCode 内置)   |
+| `Ctrl + M`         | Menu       | 切换菜单栏                |
+| `Shift + Ctrl + M` | Menu       | 切换全屏禅模式            |
+| `` Ctrl + ` ``     | 引用       | 打开终端(VSCode 内置)     |
+
+## 任务系统
+
+| 快捷键             | 记忆关键字 | 功能         |
+| ------------------ | ---------- | ------------ |
+| `Ctrl + L`         | Launch     | 启动任务     |
+| `Shift + Ctrl + L` | Launch     | 启动上个任务 |
+| `Ctrl + B`         | Build      | 执行构建任务 |
+| `Shift + Ctrl + B` | Build      | 终止执行任务 |
+| `Ctrl + T`         | Task       | 执行测试     |
+| `Shift + Ctrl + T` | Build      | 终止执行任务 |
+| `Ctrl + K C`       | Commit     | Git 提交     |
+| `Ctrl + K P`       | Pull Push  | Git 同步     |
+| `Ctrl + K [`       | Pull       | Git 拉取     |
+| `Ctrl + K ]`       | Push       | Git 推送     |
+
+## 终端操作
+
+| 快捷键             | 记忆关键字 | 功能     |
+| ------------------ | ---------- | -------- |
+| `Ctrl + X`         | Clear      | 清屏     |
+| `Ctrl + D`         | Duplicate  | 向下查找 |
+| `Shift + Ctrl + D` | Duplicate  | 向上查找 |
